@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Profile from './Profile';
+import About from './About';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        <Profile text="class component" info={{name:'baljeet'}} />
+        <About text="functional component" info={{name:"baljeet"}} />
       </header>
     </div>
   );
